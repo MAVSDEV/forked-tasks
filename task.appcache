@@ -2,13 +2,15 @@ CACHE MANIFEST
 
 CACHE:
 index.html
-css/style.css
+css/style.min.css
 css/print.css
 js/perfmatters.js
 img/profilepic_70x70.jpg
 img/julia-min_70x70.jpg
 views/images/pizzeria-min_100x75.jpg
-
+img/lh5_100x61.jpg
+img/lh6_111x69.jpg
+img/unnamed_111x56.jpg
 
 NETWORK:
 *

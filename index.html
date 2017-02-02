@@ -7,18 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content=" FILL ME IN ">
     <meta name="author" content=" FILL ME IN ">
-    <link href="css/style.min.css" rel="stylesheet">
     <title>Portfolio</title>
   </head>
 
   <body>
   <header>
     <div>
-      <a href="/"><img src="img/profilepic_70x70.jpg"></a>
+      <a href="/"><img id="cameron-image"></a>
       <p>Cameron Pittman<br><span>Course Developer</span></p>
     </div>
     <div class="jullportfolio">
-      <a href="/" ><img class="jullphoto" src="img/julia-min_70x70.jpg"></a>
+      <a href="/" ><img class="jullphoto"></a>
       <p>Julia Tataritskaya<br><span>Student</span></p>
     </div>
   </header>
@@ -37,25 +36,25 @@
     <div class="content">
       <ul>
         <li id="game_2048">
-          <img src="img/unnamed_111x56.jpg">
+          <img id="project-2048-image">
           <a href="project-2048.html">Build Your Own 2048!</a>
           <p>I made my own version of 2048. How cool is that!?</p>
         </li>
 
         <li id="">
-          <img src="img/lh6_111x69.jpg">
+          <img id="project-webperf-image">
           <a href="project-webperf.html">Website Performance Optimization</a>
           <p>Hey... this class looks familiar.</p>
         </li>
 
         <li>
-          <img src="img/lh5_100x61.jpg">
+          <img id="project-mobile-image">
           <a href="project-mobile.html">Mobile Web Development</a>
           <p>Making mobile apps isn't so hard after all.</p>
         </li>
 
         <li>
-          <img src="views/images/pizzeria-min_100x75.jpg">
+          <img id="pizza-image">
           <a href="views/pizza.html">Cam's Pizzeria</a>
           <p>Who wants a performant pizza?</p>
         </li>
@@ -67,9 +66,10 @@
     </footer>
   </div>
   </body>
-
+  <link href="css/style.min.css" rel="stylesheet" media="bogus">
   <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
   <link href="css/print.css" rel="stylesheet">
+  <script async src="js/script.js"></script>
   <script>
             (function(w,g){w['GoogleAnalyticsObject']=g;
       w[g]=w[g]||function(){(w[g].q=w[g].q||[]).push(arguments)};w[g].l=1*new Date();})(window,'ga');
@@ -78,6 +78,6 @@
 
                       ga('create', 'UA-XXXX-Y');
   </script>
+  <script async src="https://www.google-analytics.com/analytics.js"></script>
   <script async src="js/perfmatters.js"></script>
-  <script src="http://www.google-analytics.com/analytics.js"></script>
 </html>
