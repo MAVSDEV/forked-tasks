@@ -1,6 +1,8 @@
 CACHE MANIFEST
 
 CACHE:
+index.html
+css/style.min.css
 css/print.css
 js/perfmatters.js
 img/profilepic_70x70.jpg
