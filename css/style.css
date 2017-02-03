@@ -84,6 +84,7 @@ header p span {
 }
 
 .jullphoto {
+    background:url(img/julia-min_70x70.jpg) no-repeat;
     width: 70px;
     height: 70px;
 }
@@ -111,6 +112,7 @@ header p span {
 .content li {
     list-style-type: none;
     font-size: 1.1em;
+    display: table-row-group;
 }
 
 li img {
@@ -131,6 +133,33 @@ footer {
 footer span {
     float: right;
     font-style: italic;
+}
+#pizza-image{
+    background:url(views/images/pizzeria-min_100x75.jpg) no-repeat;
+    width: 100px;
+    height: 75px;
+    border: none;
+}
+#project-2048-image{
+    background:url(img/unnamed_111x56.jpg) no-repeat;
+    width: 111px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+#project-webperf-image{
+    background:url(img/lh6_111x69.jpg) no-repeat;
+    width: 111px;
+    height: 63px;
+}
+#project-mobile-image{
+    background:url(img/lh5_100x61.jpg) no-repeat;
+    width: 100px;
+    height: 62px;
+}
+#cameron-image{
+    background:url(img/profilepic_70x70.jpg) no-repeat;
+    width: 70px;
+    height: 70px;
 }
 
 /* Smartphones (portrait) */
