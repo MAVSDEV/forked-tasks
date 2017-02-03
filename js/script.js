@@ -1,4 +1,6 @@
-window.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", loadOtherResources);
+
+function loadOtherResources(){
     loadStyleSheets();
     document.getElementById("pizza-image").src = "views/images/pizzeria-min_100x75.jpg";
     document.getElementById("project-mobile-image").src = "img/lh5_100x61.jpg";
@@ -8,7 +10,7 @@ window.addEventListener("DOMContentLoaded", function() {
     document.getElementsByClassName("jullphoto")[0].src = "img/julia-min_70x70.jpg";
     document.getElementById("cameron-image").src = "img/profilepic_70x70.jpg";
 
-});
+}
 
 function loadStyleSheets() {
     var head = document.getElementsByTagName('head')[0];
